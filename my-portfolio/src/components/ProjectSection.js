@@ -3,21 +3,24 @@ import ProjectCard from './ProjectCard';
 
 const ProjectsSection = () => {
   const projects = [
-    {
-      title: 'Player Performance Model',
-      description: 'Predicts NBA player stats based on matchup and recent form.',
-      link: '#'
+      {
+      title: 'Youtube Video Translator',
+      description: 'Paste a YouTube video link and view the video with captions in your preferred language.',
+      link: '',
+      disabled: true
     },
     {
-      title: 'Currency Trading Bot',
-      description: 'Multi-agent system for backtesting and trading forex.',
-      link: '#'
+      title: 'Pending',
+      description: 'Pending',
+      link: '',
+      disabled: true
     },
     {
-      title: 'Legal Report Generator',
-      description: 'Automates report generation for law firms and property managers.',
-      link: '#'
-    }
+      title: 'Pending',
+      description: 'Pending',
+      link: '',
+      disabled: true
+  }
   ];
 
   return (
@@ -31,6 +34,7 @@ const ProjectsSection = () => {
                 title={project.title}
                 description={project.description}
                 link={project.link}
+                disabled={false}
               />
             </Col>
           ))}

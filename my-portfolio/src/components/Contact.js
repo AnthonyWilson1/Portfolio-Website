@@ -11,7 +11,7 @@ const Contact = () => {
         </p>
         <Button
           variant="primary"
-          href="https://www.linkedin.com/in/your-linkedin-username"
+          href="https://www.linkedin.com/"
           target="_blank"
           rel="noopener noreferrer"
         >

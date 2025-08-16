@@ -12,7 +12,7 @@ const Thesis = () => {
         </p>
         <div className="text-center mt-3">
           <a
-            href="https://your-thesis-link.com"
+            href="/sdsu_thesis_latex.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-outline-primary"
